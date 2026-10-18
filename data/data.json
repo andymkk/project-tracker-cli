@@ -1,0 +1,45 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alex",
+      "email": "alex@example.com",
+      "projects": [
+        {
+          "id": 1,
+          "title": "CLI Tool",
+          "description": "Build the project tracker",
+          "due_date": "2026-11-30",
+          "tasks": [
+            {
+              "id": 1,
+              "title": "Implement add-task",
+              "status": "complete",
+              "assigned_to": "Alex"
+            },
+            {
+              "id": 2,
+              "title": "Write tests",
+              "status": "pending",
+              "assigned_to": "Sam"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Sam",
+      "email": "",
+      "projects": [
+        {
+          "id": 2,
+          "title": "Docs",
+          "description": "Write the README",
+          "due_date": "",
+          "tasks": []
+        }
+      ]
+    }
+  ]
+}
