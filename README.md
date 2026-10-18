@@ -1,4 +1,5 @@
 # Project Tracker CLI
+Andy Kimathi
 
 A command-line tool for managing **users**, their **projects** and each project's **tasks**. Data is saved to a local JSON file.
 
